@@ -1,0 +1,89 @@
+.registerPages {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+  .containers {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .formDivs {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .headerDivs {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: grid;
+    gap: 15px;
+  }
+  
+  .inputDivs {
+    position: relative;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .inputs {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .inputs input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .icon {
+    margin: 0 10px;
+    color: #777;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.8rem;
+  }
+  
+  .login-link {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .login-link a {
+    color: #007bff;
+  }
+  .registerPages {
+    background-size: cover;
+  }
+  
+  
